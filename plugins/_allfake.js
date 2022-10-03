@@ -2,7 +2,7 @@ let fs = require('fs')
 let fetch = require('node-fetch')
 let handler = m => m
 handler.all = async function (m) {
-	let pp = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png'
+	let pp = 'https://telegra.ph/file/0efa7a95d34c90cfad8da.png'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -35,7 +35,7 @@ handler.all = async function (m) {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "62895604670507-1625305606@g.us" } : {}) 
+	 { remoteJid: "6283162498175-1625305606@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -51,7 +51,7 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"by : The.sad.boy01","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"by : ENXB","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
 	       global.fliveLoc2 = {
@@ -59,13 +59,13 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "title": "the.sad.boy01","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "title": "null","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
             global.ftoko = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6282331033919@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6283162498175@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -106,9 +106,9 @@ key: {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "62895604670507 -1625305606@g.us",
+			"groupJid": "6283162498175 -1625305606@g.us",
 			"inviteCode": "null",
-			"groupName": "Claraa", 
+			"groupName": "ENXION STORB", 
             "caption": `╭─${kki}RULES BOT${kka}
 │
 ├❒ DILARANG TOXIC
