@@ -791,7 +791,6 @@ function pickRandom(list) {
 }
 
 global.thumb = 'https://telegra.ph/file/0efa7a95d34c90cfad8da.png'
-global.mnp1 = 'https://telegra.ph/file/0efa7a95d34c90cfad8da.png'
 
 global.flaaa = [
  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',

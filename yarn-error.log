@@ -1,5 +1,5 @@
 Arguments: 
-  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add cfonts
 
 PATH: 
   /data/data/com.termux/files/usr/bin
@@ -14,7 +14,8 @@ Platform:
   android arm64
 
 Trace: 
-  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/furry-bot/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+  Error: read ECONNABORTED
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
 
 npm manifest: 
   {
